@@ -1,0 +1,642 @@
+/* header */
+.coo:hover{
+    text-decoration: underline;
+}
+.coo{
+    text-decoration: none ;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    padding-right: 15px;
+}
+.nono{
+    font-size: 13px;
+    font-weight: 500;
+}
+    /* navbar */
+.navbar-toggler{
+    --bs-navbar-toggler-border-color:none;
+    --bs-navbar-toggler-padding-x:0px 0px;
+    --bs-navbar-toggler-focus-width:none;
+ }
+.deep{
+    display: none;
+    list-style-type: none;
+    transform: translateX(-200px);
+    border: 2px solid rgb(253, 250, 250);
+    border-radius: 5px;
+    align-items:space-evenly;
+    width: 200px;
+    height: 230px;
+    background-color: white;
+    position: absolute;
+}
+
+
+.navbar-toggler-icon{
+    margin-left: 10px;
+    color: antiquewhite;
+}
+  
+.dropdown-menu li:nth-child(2):hover .deep{
+    display: block;
+}
+.nav{
+    padding: 8px;
+    padding-top:10px;
+}
+#bar{
+    padding: 10px;
+}
+
+#hom{
+    color: white;
+    font-weight:600;
+    padding-left: 30px;
+    margin-top:10px ;
+}
+#hom1{
+    color: white;
+    padding-left: 30px;
+    font-weight:500;
+   font-size:large;
+    text-align:right;
+    margin-top: 10px;
+}
+    /* welcome to impact */
+#h4{
+    color: white;
+    opacity: 0.6;
+}
+.gd{
+    text-decoration: none;
+    border: 3px solid rgb(49,155,143);
+    padding: 14px 48px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    background-color: rgb(26,144,130);
+}
+.gd:hover{
+    border: 3px solid rgb(128,193,186);
+    transition: 0.3s;
+}
+.img1{
+    max-width: 83%;
+    margin-left: 90px;
+    height: max-content;
+    margin-top: 20px;
+}
+#h7{
+    font-size:50px;
+    color: white;
+}
+#pho{
+    display:inline-flex;
+    vertical-align:-10px;
+    opacity: 0.5;
+
+}
+#pho:hover{
+
+    opacity: 1;
+}
+
+    /* lorem box */
+#lorem{
+    background-color: rgb(0,131,116);
+    font-weight: 500; 
+    height: 130px;
+}
+.let{
+    opacity: 0.8;
+    font-size: 28px;
+}
+
+#ico{
+    opacity: 0.8;
+    font-size:50px;
+   
+}
+#logo:hover #ico{
+    opacity: 1;
+}
+#logo{
+    height: 270px;
+    background-color: rgb(0,131,116);
+    width: 260px;
+    border: 2px solid rgb(0,125,111);
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+#logo:hover{
+    filter: brightness(1.1);    
+    
+}
+#logo:hover .let{
+    opacity: 1;
+}
+    /* about marker */
+.about::after{
+    content: '';
+    display: block;
+    bottom: -20px;
+    width: 60px;
+    height: 4px;
+    background-color:rgb(0,131,116);
+    position: relative;
+    margin: 0 auto;
+}
+#circle{
+    font-size: 20px;
+    color:rgb(0,131,116)
+}
+.cir{
+    list-style-type: none;
+    padding:0 0 10px 40px;
+    position:relative;
+}
+.spa{
+    padding: 0 0 10px 40px;
+}
+.round{
+    border-radius: 20px;
+    margin-left: 40px;
+    height: 380px;
+    width: 500px;
+}
+.fix{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 160px;
+    font-size: 60px;
+   
+} 
+#twi{
+    opacity: 0.7;
+    padding:0px 10px ;
+    font-size: 14px;
+}
+#twi:hover{
+    opacity: 1;
+}
+.play{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(0,131,116);
+    border-radius: 50%;
+    margin-top:170px ;
+    margin-left: 50px ; 
+    position:absolute;
+    animation: animate 3s linear infinite;
+}
+ 
+.pbut{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #fff;
+    height: 100%;
+}
+ @keyframes animate{
+    0%{box-shadow: 0 0 0 0 rgb(0,131,116) , 0 0 0 0 rgb(0,131,116)}
+    40%{box-shadow: 0 0 0 50px rgb(255, 109, 74, 0) ,}
+    80%{box-shadow: 0 0 0 0px rgb(0,131,116), 0 0 0 30px rgb(255, 109, 74, 0)}
+    100%{box-shadow: 0 0 0 0 rgb(255, 109, 74, 0) , 0 0 0 0px rgb(255, 109, 74, 0)}}
+.pbut:hover{
+    animation: none; 
+}
+.play:hover{
+  transform:scale(1.3);
+  animation:none
+
+}
+
+    /* image scroll */
+.scroll{
+    height: 40px;
+    padding-left: 70px;
+}
+/*      call to action */
+.bgimg{
+    background-image:url(https://bootstrapmade.com/demo/templates/Impact/assets/img/cta-bg.jpg);
+    overflow: hidden;
+    object-fit: cover;
+    height:500px;
+    background-attachment: fixed;
+    background-size:100%;
+    border-radius: 15px;
+    background-repeat:no-repeat;
+    background-blend-mode:overlay;
+    background-color:rgb(60, 59, 59);
+}
+.call{
+    border: 2px solid white;
+    padding: 12px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+    transition: 0.5s
+}
+.play1{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(0,131,116);
+    border-radius: 50%;
+    margin-top: -120px;
+    position:absolute;
+    animation: animate 3s linear infinite;
+}
+.play1:hover{
+    transform:scale(1.3);
+    animation:none
+}
+.call:hover{
+    background-color: rgb(0,131,116);
+    border: 2px solid rgb(0,131,116);
+}
+.action{
+    margin-top: 200px;
+}
+    /* our services */
+.nes{
+    border-bottom: 4px solid rgb(231,233,233);
+    transition: 0.5s;
+    opacity: 0.8;
+}
+.servicc{
+    border: 2px solid white;
+    height: 380px;
+    width: 350px;
+}
+.activity{
+    font-size: 60px;
+    opacity: 0.7;
+    
+}
+ #fff:hover .activity{
+    opacity: 1;
+}
+.fill{
+    position: absolute;
+    margin-top:-10px;
+    transition: 0.5s;
+    font-size: 50px;
+    opacity: 0;
+    
+}
+#fff:hover .nes{
+    border-bottom: 4px solid #008374;
+    opacity: 1;
+}
+#fff:hover .fill{
+    color: #008374;
+    opacity: 0.5;
+}
+.provi{
+    font-size: 14px;
+    line-height: 25px;
+}
+.read{
+    color: rgb(100,100,100);
+}
+#fff:hover .read{
+    color:  #008374;
+}
+ /* testimonials */
+.termin{
+    border: 1px solid white;
+    height: 430px;
+    width: 340px;
+}
+ /* our team  */
+.twit{
+    color: rgb(167,167,167);
+    border: 1px solid gray;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 17px;
+}
+.twit:hover{
+    color: rgb(33,130,116);
+    border: 1px solid rgb(33,130,116);
+}
+.ot{
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 18px;
+    letter-spacing: 0.9px;
+}    
+.ot1{
+    font-size: 14px;
+    color: rgb(122,128,130) ;
+    font-style: italic;
+}
+/* pricing */
+#freeplan{
+    border: 2px solid white;
+    width:350px;
+    height: 700px;
+    margin-top: 100px;
+    border-radius: 20px;
+    margin-left: 12px;
+}
+#free{
+    border: 2px solid #008374;
+    height: 800px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+#plan{
+    border: 2px solid white;
+    width: 350px; 
+    height: 700px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+.price3{
+    font-size: 35px;
+    color: white;
+    line-height: 70px;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: -12px;
+}
+.price4{
+    font-size: 70px;
+    margin-left:-30px ;
+    color: #008374;
+    position: absolute;
+}
+.price6{
+    list-style-type: none;
+    text-align: left;
+    margin-left: -30px;
+    font-size: 17px;
+    color: rgb(116,116,116);
+    padding: 9px 0;
+}
+.price7{
+    list-style-type: none;
+    text-align: left;
+    margin-left: -30px;
+    font-size: 17px;
+    padding: 10px 0;
+    text-decoration: line-through;
+    color: rgb(170,170,170);
+}
+.price8{
+   
+    border: 1px solid black;
+    padding: 12px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(14, 14, 14);
+    letter-spacing: 1px;
+    transition: 0.5s;
+    font-family: "montserrat",sans-serif;
+}
+.price8:hover{
+    background-color: rgb(0,131,116);
+    border: 1px solid rgb(0,131,116);
+    color: white;
+}
+.price9{
+    font-size: 24px;
+    padding-top: 100px;
+    color: rgb(5,150,82);
+}
+.price10{
+    list-style-type: none;
+    text-align: left;
+    margin-left: -30px;
+    font-size: 18px;
+    color: rgb(116,116,116);
+    padding: 9px 0;
+}
+.price11{
+    font-size: 90px;
+    margin-left:-43px ;
+    color: #008374;
+    position: absolute;
+}
+.price12{
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -16px;   
+}
+.price13{
+    border: 1px solid black;
+    padding: 12px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(14, 14, 14);
+    letter-spacing: 1px;
+    transition: 0.5s;
+    font-family: "montserrat",sans-serif;
+}
+.price13:hover{
+    background-color: rgb(0,131,116);
+    border: 1px solid rgb(0,131,116);
+    color: white;
+}
+/* frequent question */
+.frequ{
+    font-size: 34px;
+    font-weight: 400;
+}
+.num{
+    font-size: 19px;
+    padding-right:4px;
+    color: rgb(0,131,138);
+    font-weight: 600;
+}
+.ques{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    padding: 5px 0;
+}
+.ques:hover{
+    color:rgb(0,131,138) ;
+}
+.accordion{
+    --bs-accordion-btn-bg:white;
+    --bs-accordion-active-bg:white;
+    --bs-accordion-active-color:#008372;
+    --bs-accordion-border-color:white;
+    --bs-accordion-btn-focus-box-shadow:none;
+    --bs-accordion-body-padding-y:0px 20px;
+    --bs-accordion-btn-icon-transform:rotate(0deg);
+}
+.accordion-button::after{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-chevron-right' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708'/%3E%3C/svg%3E");
+}
+/* blog */
+.blog3{
+    color: black;
+    font-weight: 640;
+    font-size: 24px;
+}
+.blog3:hover{
+    color: #008374;
+}
+/* contact */
+.contact1{
+    background-color: rgb(72,166,155);
+    border: 1px solid #008374;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    font-size: 17px;
+}
+.contact2{
+    margin-top: -5px;
+    font-size: 14px;
+}
+.contact3:hover .contact1{
+    color: #008374;
+    background-color: white;
+    transition: 0.5s;
+}
+input[type="text"]{
+    padding: 10px 15px;
+    opacity: 0.5;
+    font-size: 15px;
+}
+input[type="email"]{
+    padding: 10px 15px;
+    opacity: 0.5;
+    font-size: 15px;
+}
+#input{
+    width: 100%;
+    
+}
+  #output{
+    width: 100%;
+    padding: 10px 15px;
+    opacity: 0.5;
+}
+input[type="submit"]{
+    width: 170px;
+    height: 45px;
+    border: 2px solid #008374;
+    border-radius: 50px ;
+    background-color: #008374;
+    color: white;
+    
+}
+input[type="submit"]:hover{
+    filter: brightness(1.2);
+}
+ /* footer  */
+
+#foottt{
+   background-color: #008372;
+   height: 300px;
+}
+.footer{
+    color: white;
+    text-decoration: none;
+
+}
+.footer1{
+    list-style-type: none;
+    margin-left: 0;
+}
+.footer2{
+    text-decoration: none;
+    opacity: 0.7;
+    line-height: 1;
+    font-size: 14px;
+}
+.footer2:hover{
+    opacity: 1;
+}
+.footer3{   
+    margin-left: -28px;
+    padding-top: 10px;
+      
+}
+.footer5{
+    font-size:14px;
+    line-height:27px;
+}
+.footer4{
+    font-weight: 700;
+    font-size: 17px;
+}
+.foot{
+    font-weight:700;
+    letter-spacing:1px;
+    padding-top:40px;
+}
+.twit1{
+    color: rgb(249, 243, 243);
+    border: 1px solid rgb(251, 245, 245);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 20px;
+    font-size: 17px;
+}
+   
+.footer6{
+    text-decoration: none;
+    padding-right: 10px;
+    opacity: 0.5;
+    margin-top: -8px;
+}
+.footer6:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.copy{
+    border-top: 1px solid  rgb(26,144,130);
+    font-size: 14px;
+    padding-top: 30px;
+}
+    
+
+    /* scroll up arrow */
+    
+.scrollround{
+    position: fixed;
+    bottom:15px;
+    right: 12px;
+}
+.up{
+    border: 1px solid #008372;
+    border-radius: 50%;
+    color: white;
+    font-size: 25px;
+    padding: 5px 9px;
+    background-color: #008372;
+    transition: all 0.5s;
+}
