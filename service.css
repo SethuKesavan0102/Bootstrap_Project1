@@ -1,0 +1,36 @@
+.webb{
+    padding: 5px 0px 8px 13px;
+    margin: 20px 0px;
+    border-left: 3px solid rgb(188,188,188);
+    color: rgb(78,78,78);
+    /* font-size: 16px; */
+}
+.web{
+    padding: 5px 0px 8px 15px;
+    border-left: 3px solid rgb(33,130,116);
+    color: black;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.webb:hover{
+    border-color: rgb(33,130,116);
+}
+.web1{
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+}
+.home{
+    color: rgb(138,198,191);
+    padding-left: 30px;
+}
+.bread{
+    padding-top: 20px;
+}
+.breadcrumb{
+    --bs-breadcrumb-divider-color: rgb(138,198,191);
+}
+.home:hover{
+    color: white;
+    transition: 0.5s;
+}
