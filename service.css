@@ -5,12 +5,21 @@
     color: rgb(78,78,78);
     /* font-size: 16px; */
 }
+#contt{
+    background-color: rgb(33,130,116);
+    height: 250px;
+    margin-top: 120px;
+}
 .web{
     padding: 5px 0px 8px 15px;
     border-left: 3px solid rgb(33,130,116);
     color: black;
     font-weight: 700;
     margin-top: 15px;
+}
+.pp{
+    margin: 0px 15%;
+    font-weight: 500;
 }
 .webb:hover{
     border-color: rgb(33,130,116);

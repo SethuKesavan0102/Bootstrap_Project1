@@ -219,6 +219,12 @@ input[type="radio"][id="branding"]:checked ~ .book
         font-size: 13px;
         font-weight: 400;
     }
+    .pp{
+        margin: auto;
+    }
+    #contt{
+        height: 350px;
+    }
 }
 
 
